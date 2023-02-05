@@ -1,0 +1,238 @@
+<?php include("userinfo.php");?>
+<html>
+<head>
+    <title>PicNoT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+      img{
+        border:2px solid #555;
+      }
+      </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="display-4"class="navbar-brand" href="#"style="color:silver;font-weight:bold;">PicNot</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.php"style="color:lavender;font-size:22;font-weight:bold;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php"style="color:lavender;font-size:22;font-weight:bold;">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ContactUs.php"style="color:lavender;font-size:22;font-weight:bold;">ContactUs</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src= "https://cdn.pixabay.com/photo/2020/07/23/10/51/field-5431007__340.jpg" class="rounded"alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/08/25/17/18/sunset-7410852__340.jpg" alt="Chicago" width="1100" height="500">
+      
+
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/09/09/18/14/combourg-castle-7443593__340.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<section class ="my-5">
+  <div class="py-5">
+    <h3 style="color:darkslategrey;background:cornsilk;font-weight:bold;"class="text-center">About Us</h3>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="https://cdn.pixabay.com/photo/2021/11/13/23/06/tree-6792528__340.jpg" class="img-fluid aboutimg">
+    </div>
+    <div class="col-lg-6 col-md-6 col-12">
+      <h2 style="color:mediumslateblue; font-weight:bold;"class="text-center" class="display-4">A Team Of PicNot</h2>
+      <p style="color:deeppink; font-weight:bold;"class="py-5">A photograph is a gift of science which is always close to heart. Because it contains memories of people near &far. Every photo simple or complex has a story to stay after Becomes fresh in our mind. It is a creation very small but is full of details, movement &emotions of a person.</p>
+      <a href="about.php" class="btn btn-success">Know For More</a>
+    </div>
+</div>
+</div>
+</section>
+<section class ="my-5">
+  <div class="py-5">
+    <h3 style="color:darkslategrey;background:paleturquoise; font-weight:bold;"class="text-center">Our Services</h3>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12">
+      <div class="card" style="width:400px">
+  <img class="card-img-top" class="rounded"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTROzy2eqG6ceMi2iANsngZK4R78TayhAdMVw&usqp=CAU" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Beautiful Nature :)</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div> 
+
+  <div class="col-lg-4 col-md-4 col-12">
+      <div class="card" style="width:400px">
+  <img class="card-img-top"class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN43hndjQA97MtVMxcUe02ErzxTHqUHcX7gw&usqp=CAU" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Wallpaper Polygon 4K :)</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div> 
+
+  <div class="col-lg-4 col-md-4 col-12">
+      <div class="card" style="width:400px">
+  <img class="card-img-top"class="rounded"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHt4CzRkgW9zl5Ez87sh5BB7urKnSf-VhGtw&usqp=CAU" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Abstract Digital Art :)</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+  </div> 
+
+</div>
+</div>
+
+</section>
+<section class ="my-5">
+  <div class="py-5">
+    <h3 class="text-center" style="color:darkslateblue;background:thistle;font-weight:bold;">Gallery</h3>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+  </div>
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/3375116/pexels-photo-3375116.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img  src="https://images.pexels.com/photos/2583852/pexels-photo-2583852.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/1366630/pexels-photo-1366630.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+<div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/1366913/pexels-photo-1366913.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/1261731/pexels-photo-1261731.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+  <div class="col-lg-4 col-md-4 col-12">
+  <img src="https://images.pexels.com/photos/3427774/pexels-photo-3427774.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+  <div class="col-lg-4 col-md-4 col-12" >
+  <img src="https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid pb-4">
+</div>
+</div>
+</div>
+</section>
+
+<section class ="my-5">
+  <div class="py-5">
+    <h2 class="text-center" style="color:darkslateblue;background:darkkhaki;font-weight:bold;">Fill The Form</h2>
+  </div>
+  <div class="w-50 m-auto">
+    <form action="userinfo.php" method="POST">
+      <div class="form-group">
+        <label>Username</label>
+        <input type ="text" name="user" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email Id</label>
+        <input type ="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile</label>
+        <input type ="text" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Write Your Idea</label>
+        <textarea class="form-control" name="comment">
+        </textarea>
+      </div>
+      <input type ="submit" class="btn btn-success" name="Register" value="Register">
+
+    </form>
+  </div>
+</section>
+<footer>
+  <p class="p-3 bg-dark text-white text-center">@SakchamTechnicalProduction</p>
+</footer>   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>   
+<?php
+    if(isset($_POST['Register']))
+    {
+       $User=$_POST['user'];
+       $Email=$_POST['email'];
+       $Mobile=$_POST['mobile'];
+       $Comment=$_POST['comment'];
+
+       $query="INSERT INTO userinfo VALUES('$User','$Email','$Mobile','$Comment')";
+
+       $data= mysqli_query($conn,$query);
+
+       if($data)
+       {
+         echo "Data Inserted Into Database";
+       }
+       else
+       {
+         echo "Failed";
+       }
+      }
+?>
